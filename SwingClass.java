@@ -161,6 +161,7 @@ public class SwingClass extends JFrame implements ActionListener {
         int secondRow = emptyTilePlace / 4;
         int secondColumn = emptyTilePlace % 4;
 
+        // Metod hämtad från Stackoverflow: "https://stackoverflow.com/questions/8224470/calculating-manhattan-distance"
         return (Math.abs(firstRow - secondRow) + Math.abs(firstColumn - secondColumn) == 1);
     }
 
